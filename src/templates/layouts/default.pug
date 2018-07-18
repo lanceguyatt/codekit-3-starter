@@ -1,0 +1,23 @@
+- const paths = { styles: '/styles' }
+
+include ../mixins/index
+
+doctype html
+html
+  head
+    meta(charset='utf-8')
+
+    block title
+
+      title CodeKit 3 starter
+
+    block styles
+
+      link(rel='stylesheet' href=`${paths.styles}/app.css`)
+
+  body
+
+    div(class='c-wrapper')
+      block view
+
+    block scripts

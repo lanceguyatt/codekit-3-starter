@@ -1,0 +1,17 @@
+color-light = rgb(255, 255, 255)
+color-primary = #BE0177
+color-secondary = #005eb8
+
+color(foo, bar)
+  .u-{foo} { color: bar; }
+  .u-bg-{foo} { background-color: bar; }
+  .u-border-{foo} { border-color: bar; }
+
+color('primary', var(--color-primary));
+color('secondary', var(--color-secondary));
+color('light', color-light);
+
+:root
+  --color-light color-light
+  --color-primary color-primary
+  --color-secondary color-secondary

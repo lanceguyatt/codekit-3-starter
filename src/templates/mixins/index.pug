@@ -1,0 +1,23 @@
+mixin row(tag = 'div')
+
+  #{tag}(class='o-row')&attributes(attributes)
+    block
+
+mixin example(tag = 'div')
+
+  #{tag}(class='u-border u-mb4')&attributes(attributes)
+    block
+
+mixin example-rendered(tag = 'div')
+
+  #{tag}(class='u-p2 u-border-bottom')&attributes(attributes)
+    block
+
+mixin example-code(lang = 'html')
+
+  div(class='u-relative')&attributes(attributes)
+    pre(class='u-overflow-auto u-overflow-touch u-p2 u-mb0')
+      span(class='u-h6 u-absolute u-top-0 u-right-0 u-bg-silver u-p1')
+        =lang
+      code(class=lang)
+        block
