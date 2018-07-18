@@ -21,3 +21,8 @@ mixin example-code(lang = 'html')
         =lang
       code(class=lang)
         block
+
+mixin stringify(item, replacer = '', space = ' ')
+
+  code
+    pre=JSON.stringify(item, replacerspace = ' ')

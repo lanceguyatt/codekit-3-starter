@@ -1,6 +1,8 @@
-- const paths = { styles: '/styles' }
+include ../../../data/index
 
 include ../mixins/index
+
+block locals
 
 doctype html
 html
@@ -9,7 +11,10 @@ html
 
     block title
 
-      title CodeKit 3 starter
+      title=site.name
+
+    meta(itemprop='name' content=view.name)
+    meta(itemprop='url' content=view.url)
 
     block styles
 
