@@ -1,20 +1,30 @@
 include ../../../data/index
-
 include ../mixins/index
 
 block locals
 
 doctype html
-html
+html(class='no-js' dir=site.dir lang=site.lang)
   head
     meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible' content='ie=edge')
 
     block title
 
       title=site.name
 
-    meta(itemprop='name' content=view.name)
-    meta(itemprop='url' content=view.url)
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+
+    block meta-og
+
+      meta(property='og:title' content=view.title)
+      meta(property='og:description' content=view.description)
+      meta(property='og:image' content=view.image.url)
+      //- meta(property='og:image:width' content=view.image.width)
+      //- meta(property='og:image:height' content=view.image.height)
+      meta(property='og:url' content=`${site.url}${view.url}`)
+      //- meta(property='og:type' content=view.type)
+      meta(property='og:site_name' content=site.name)
 
     block styles
 
