@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,939 +7,100 @@
 		"uuidString": "4DAA9035-448A-42B1-B6DA-75DAA971744E"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28905",
 "files": {
-	"\/.browserslist": {
+	"/.browserslist": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/build\/.browserslist",
+		"oAP": "/build/.browserslist",
 		"oF": 1
 		},
-	"\/.editorconfig": {
+	"/.editorconfig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/build\/.editorconfig",
+		"oAP": "/build/.editorconfig",
 		"oF": 1
 		},
-	"\/.eslintignore": {
+	"/.eslintignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/build\/.eslintignore",
+		"oAP": "/build/.eslintignore",
 		"oF": 1
 		},
-	"\/.eslintrc": {
+	"/.eslintrc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/build\/.eslintrc",
+		"oAP": "/build/.eslintrc",
 		"oF": 1
 		},
-	"\/.gitignore": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/build\/.gitignore",
+		"oAP": "/build/.gitignore",
 		"oF": 1
 		},
-	"\/.prettierignore": {
+	"/.prettierignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/build\/.prettierignore",
+		"oAP": "/build/.prettierignore",
 		"oF": 1
 		},
-	"\/.prettierrc": {
+	"/.prettierrc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/build\/.prettierrc",
+		"oAP": "/build/.prettierrc",
 		"oF": 1
 		},
-	"\/.pug-lintrc.js": {
+	"/.pug-lintrc.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/build\/.pug-lintrc-min.js",
+		"oAP": "/build/.pug-lintrc-min.js",
 		"oF": 1,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/bower.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/build\/bower-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/animate.css\/.bower.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/.bower.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/animate.css\/animate-config.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/animate-config.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/animate.css\/animate.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/animate.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/animate.min.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/animate.min.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/bower.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/bower.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/animate.css\/gulpfile.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/gulpfile.js",
-		"oF": 1,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/bower_components\/animate.css\/LICENSE": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/LICENSE",
-		"oF": 1
-		},
-	"\/bower_components\/animate.css\/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/package.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/bower_components\/animate.css\/source\/_base.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/_base.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/attention_seekers\/bounce.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/attention_seekers\/bounce.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/attention_seekers\/flash.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/attention_seekers\/flash.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/attention_seekers\/headShake.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/attention_seekers\/headShake.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/attention_seekers\/jello.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/attention_seekers\/jello.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/attention_seekers\/pulse.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/attention_seekers\/pulse.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/attention_seekers\/rubberBand.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/attention_seekers\/rubberBand.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/attention_seekers\/shake.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/attention_seekers\/shake.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/attention_seekers\/swing.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/attention_seekers\/swing.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/attention_seekers\/tada.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/attention_seekers\/tada.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/attention_seekers\/wobble.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/attention_seekers\/wobble.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceIn.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceIn.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInDown.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInDown.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInLeft.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInLeft.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInRight.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInRight.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInUp.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/bouncing_entrances\/bounceInUp.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOut.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOut.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutDown.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutDown.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutLeft.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutLeft.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutRight.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutRight.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutUp.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/bouncing_exits\/bounceOutUp.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_entrances\/fadeIn.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_entrances\/fadeIn.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_entrances\/fadeInDown.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_entrances\/fadeInDown.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_entrances\/fadeInDownBig.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_entrances\/fadeInDownBig.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_entrances\/fadeInLeft.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_entrances\/fadeInLeft.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_entrances\/fadeInLeftBig.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_entrances\/fadeInLeftBig.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_entrances\/fadeInRight.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_entrances\/fadeInRight.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_entrances\/fadeInRightBig.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_entrances\/fadeInRightBig.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_entrances\/fadeInUp.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_entrances\/fadeInUp.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_entrances\/fadeInUpBig.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_entrances\/fadeInUpBig.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_exits\/fadeOut.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_exits\/fadeOut.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_exits\/fadeOutDown.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_exits\/fadeOutDown.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_exits\/fadeOutDownBig.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_exits\/fadeOutDownBig.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_exits\/fadeOutLeft.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_exits\/fadeOutLeft.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_exits\/fadeOutLeftBig.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_exits\/fadeOutLeftBig.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_exits\/fadeOutRight.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_exits\/fadeOutRight.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_exits\/fadeOutRightBig.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_exits\/fadeOutRightBig.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_exits\/fadeOutUp.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_exits\/fadeOutUp.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/fading_exits\/fadeOutUpBig.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/fading_exits\/fadeOutUpBig.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/flippers\/flip.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/flippers\/flip.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/flippers\/flipInX.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/flippers\/flipInX.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/flippers\/flipInY.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/flippers\/flipInY.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/flippers\/flipOutX.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/flippers\/flipOutX.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/flippers\/flipOutY.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/flippers\/flipOutY.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/lightspeed\/lightSpeedIn.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/lightspeed\/lightSpeedIn.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/lightspeed\/lightSpeedOut.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/lightspeed\/lightSpeedOut.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/rotating_entrances\/rotateIn.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/rotating_entrances\/rotateIn.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInDownLeft.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInDownLeft.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInDownRight.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInDownRight.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInUpLeft.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInUpLeft.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInUpRight.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/rotating_entrances\/rotateInUpRight.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/rotating_exits\/rotateOut.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/rotating_exits\/rotateOut.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutDownLeft.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutDownLeft.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutDownRight.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutDownRight.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutUpLeft.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutUpLeft.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutUpRight.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/rotating_exits\/rotateOutUpRight.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/sliding_entrances\/slideInDown.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/sliding_entrances\/slideInDown.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/sliding_entrances\/slideInLeft.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/sliding_entrances\/slideInLeft.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/sliding_entrances\/slideInRight.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/sliding_entrances\/slideInRight.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/sliding_entrances\/slideInUp.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/sliding_entrances\/slideInUp.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/sliding_exits\/slideOutDown.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/sliding_exits\/slideOutDown.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/sliding_exits\/slideOutLeft.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/sliding_exits\/slideOutLeft.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/sliding_exits\/slideOutRight.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/sliding_exits\/slideOutRight.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/sliding_exits\/slideOutUp.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/sliding_exits\/slideOutUp.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/specials\/hinge.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/specials\/hinge.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/specials\/rollIn.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/specials\/rollIn.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/specials\/rollOut.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/specials\/rollOut.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/zooming_entrances\/zoomIn.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/zooming_entrances\/zoomIn.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInDown.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInDown.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInLeft.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInLeft.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInRight.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInRight.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInUp.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/zooming_entrances\/zoomInUp.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/zooming_exits\/zoomOut.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/zooming_exits\/zoomOut.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutDown.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutDown.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutLeft.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutLeft.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutRight.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutRight.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutUp.css": {
-		"aP": 1,
-		"bl": 1,
-		"ft": 16,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/build\/bower_components\/animate.css\/source\/zooming_exits\/zoomOutUp.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"\/build": {
+	"/build": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/build\/build",
+		"oAP": "/build/build",
 		"oF": 0
 		},
-	"\/data\/index.pug": {
+	"/data/index.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/data\/index.html",
+		"oAP": "/build/data/index.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/data\/views\/index.pug": {
+	"/data/views/index.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/data\/views\/index.html",
+		"oAP": "/build/data/views/index.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/README.md": {
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/build/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -948,7 +109,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 1,
-		"oAP": "\/build\/README.html",
+		"oAP": "/build/README.html",
 		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
@@ -957,40 +118,40 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/src\/images\/image-1.jpg": {
+	"/src/images/image-1.jpg": {
 		"ft": 16384,
 		"iS": 42230,
 		"jF": 0,
 		"oA": 2,
-		"oAP": "\/build\/images\/image-1.jpg",
+		"oAP": "/build/images/image-1.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/images\/image-2.jpg": {
+	"/src/images/image-2.jpg": {
 		"ft": 16384,
 		"iS": 66035,
 		"jF": 0,
 		"oA": 2,
-		"oAP": "\/build\/images\/image-2.jpg",
+		"oAP": "/build/images/image-2.jpg",
 		"oF": 1,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/src\/scripts\/app.coffee": {
+	"/src/scripts/app.coffee": {
 		"ft": 32,
 		"ma": 1,
 		"mi": 0,
 		"oA": 0,
-		"oAP": "\/build\/scripts\/app.js",
+		"oAP": "/build/scripts/app.js",
 		"oF": 1,
 		"oS": 1,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/src\/styles\/app.styl": {
+	"/src/styles/app.styl": {
 		"aP": 1,
 		"bl": 0,
 		"dS": 0,
@@ -998,12 +159,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/build\/styles\/app.css",
+		"oAP": "/build/styles/app.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
 		},
-	"\/src\/styles\/components\/index.styl": {
+	"/src/styles/components/index.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1011,12 +172,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/components\/index.css",
+		"oAP": "/build/styles/components/index.css",
 		"oF": 1,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/generic\/index.styl": {
+	"/src/styles/generic/index.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1024,12 +185,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/generic\/index.css",
+		"oAP": "/build/styles/generic/index.css",
 		"oF": 1,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/mixins\/index.styl": {
+	"/src/styles/mixins/index.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1037,12 +198,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/mixins\/index.css",
+		"oAP": "/build/styles/mixins/index.css",
 		"oF": 1,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/objects\/index.styl": {
+	"/src/styles/objects/index.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1050,12 +211,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/objects\/index.css",
+		"oAP": "/build/styles/objects/index.css",
 		"oF": 1,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/settings\/breakpoints.styl": {
+	"/src/styles/settings/breakpoints.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1063,12 +224,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/settings\/breakpoints.css",
+		"oAP": "/build/styles/settings/breakpoints.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/settings\/index.styl": {
+	"/src/styles/settings/index.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1076,12 +237,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/settings\/index.css",
+		"oAP": "/build/styles/settings/index.css",
 		"oF": 1,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/settings\/space.styl": {
+	"/src/styles/settings/space.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1089,12 +250,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/settings\/space.css",
+		"oAP": "/build/styles/settings/space.css",
 		"oF": 1,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/settings\/typography.styl": {
+	"/src/styles/settings/typography.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1102,12 +263,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/settings\/typography.css",
+		"oAP": "/build/styles/settings/typography.css",
 		"oF": 1,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/utilities\/align.styl": {
+	"/src/styles/utilities/align.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1115,12 +276,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/utilities\/align.css",
+		"oAP": "/build/styles/utilities/align.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/utilities\/background-images.styl": {
+	"/src/styles/utilities/background-images.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1128,12 +289,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/utilities\/background-images.css",
+		"oAP": "/build/styles/utilities/background-images.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/utilities\/border.styl": {
+	"/src/styles/utilities/border.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1141,12 +302,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/utilities\/border.css",
+		"oAP": "/build/styles/utilities/border.css",
 		"oF": 1,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/utilities\/colors.styl": {
+	"/src/styles/utilities/colors.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1154,12 +315,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/utilities\/colors.css",
+		"oAP": "/build/styles/utilities/colors.css",
 		"oF": 1,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/utilities\/flexbox.styl": {
+	"/src/styles/utilities/flexbox.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1167,12 +328,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/utilities\/flexbox.css",
+		"oAP": "/build/styles/utilities/flexbox.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/utilities\/hide.styl": {
+	"/src/styles/utilities/hide.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1180,12 +341,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/utilities\/hide.css",
+		"oAP": "/build/styles/utilities/hide.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/utilities\/index.styl": {
+	"/src/styles/utilities/index.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1193,12 +354,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/utilities\/index.css",
+		"oAP": "/build/styles/utilities/index.css",
 		"oF": 1,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/utilities\/layout.styl": {
+	"/src/styles/utilities/layout.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1206,12 +367,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/utilities\/layout.css",
+		"oAP": "/build/styles/utilities/layout.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/utilities\/margin.styl": {
+	"/src/styles/utilities/margin.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1219,12 +380,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/utilities\/margin.css",
+		"oAP": "/build/styles/utilities/margin.css",
 		"oF": 1,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/utilities\/padding.styl": {
+	"/src/styles/utilities/padding.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1232,12 +393,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/utilities\/padding.css",
+		"oAP": "/build/styles/utilities/padding.css",
 		"oF": 1,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/utilities\/position.styl": {
+	"/src/styles/utilities/position.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1245,12 +406,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/utilities\/position.css",
+		"oAP": "/build/styles/utilities/position.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/utilities\/type-scale.styl": {
+	"/src/styles/utilities/type-scale.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1258,12 +419,12 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/utilities\/type-scale.css",
+		"oAP": "/build/styles/utilities/type-scale.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/styles\/utilities\/typography.styl": {
+	"/src/styles/utilities/typography.styl": {
 		"aP": 1,
 		"bl": 1,
 		"dS": 0,
@@ -1271,145 +432,145 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/build\/styles\/utilities\/typography.css",
+		"oAP": "/build/styles/utilities/typography.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
 		},
-	"\/src\/templates\/layouts\/default.pug": {
+	"/src/templates/layouts/default.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/templates\/layouts\/default.html",
+		"oAP": "/build/templates/layouts/default.html",
 		"oF": 1,
 		"oS": 0
 		},
-	"\/src\/templates\/mixins\/index.pug": {
+	"/src/templates/mixins/index.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/build\/templates\/mixins\/index.html",
+		"oAP": "/build/templates/mixins/index.html",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/src\/templates\/views\/index.pug": {
+	"/src/templates/views/index.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/build\/index.html",
+		"oAP": "/build/index.html",
 		"oF": 2,
 		"oS": 0
 		},
-	"\/static\/.htaccess": {
+	"/static/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/.htaccess",
+		"oAP": "/build/.htaccess",
 		"oF": 3
 		},
-	"\/static\/android-chrome-192x192.png": {
+	"/static/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 3976,
 		"oA": 2,
-		"oAP": "\/build\/android-chrome-192x192.png",
+		"oAP": "/build/android-chrome-192x192.png",
 		"oF": 3,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/static\/android-chrome-512x512.png": {
+	"/static/android-chrome-512x512.png": {
 		"ft": 32768,
 		"iS": 12516,
 		"oA": 2,
-		"oAP": "\/build\/android-chrome-512x512.png",
+		"oAP": "/build/android-chrome-512x512.png",
 		"oF": 3,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/static\/apple-touch-icon.png": {
+	"/static/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 3730,
 		"oA": 2,
-		"oAP": "\/build\/apple-touch-icon.png",
+		"oAP": "/build/apple-touch-icon.png",
 		"oF": 3,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/static\/browserconfig.xml": {
+	"/static/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/browserconfig.xml",
+		"oAP": "/build/browserconfig.xml",
 		"oF": 3
 		},
-	"\/static\/favicon-16x16.png": {
+	"/static/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 428,
 		"oA": 2,
-		"oAP": "\/build\/favicon-16x16.png",
+		"oAP": "/build/favicon-16x16.png",
 		"oF": 3,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/static\/favicon-32x32.png": {
+	"/static/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 724,
 		"oA": 2,
-		"oAP": "\/build\/favicon-32x32.png",
+		"oAP": "/build/favicon-32x32.png",
 		"oF": 3,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/static\/favicon.ico": {
+	"/static/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/favicon.ico",
+		"oAP": "/build/favicon.ico",
 		"oF": 3
 		},
-	"\/static\/humans.txt": {
+	"/static/humans.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/humans.txt",
+		"oAP": "/build/humans.txt",
 		"oF": 3
 		},
-	"\/static\/manifest.json": {
+	"/static/manifest.json": {
 		"ft": 524288,
 		"oA": 2,
-		"oAP": "\/build\/manifest.json",
+		"oAP": "/build/manifest.json",
 		"oF": 3,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/static\/mstile-150x150.png": {
+	"/static/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 3220,
 		"oA": 2,
-		"oAP": "\/build\/mstile-150x150.png",
+		"oAP": "/build/mstile-150x150.png",
 		"oF": 3,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/static\/robots.txt": {
+	"/static/robots.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/static\/robots.txt",
+		"oAP": "/build/static/robots.txt",
 		"oF": 0
 		}
 	},
@@ -1430,141 +591,94 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 1,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -1576,7 +690,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -1588,7 +723,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -1624,53 +777,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -1679,6 +825,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 1,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -2036,6 +1183,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -2047,6 +1198,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -2092,6 +1247,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -2110,10 +1269,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -2312,9 +1467,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -2668,6 +1827,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -2696,6 +1859,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -2703,6 +1870,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -2758,7 +1929,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -2818,7 +1989,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -3213,7 +2384,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -3232,7 +2402,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
@@ -3264,19 +2434,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -3332,7 +2502,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3361,7 +2531,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3385,36 +2555,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "src",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3422,11 +2626,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3450,6 +2654,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -3466,7 +2674,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3474,20 +2690,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -3502,6 +2730,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -3510,12 +2746,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -3526,11 +2770,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3542,23 +2794,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3570,13 +2850,21 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/build"
+	"websiteRelativeRoot": "/build"
 	},
 "settingsFileVersion": "3"
 }

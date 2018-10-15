@@ -1,3 +1,12 @@
+mixin view(item)
+
+  -
+    view.title = `${item.name} - ${site.name}`
+    item.name ? view.name = item.name : site.name
+    item.description ? view.description = item.description : site.description
+    item.url ? view.url = item.url : site.url
+    item.image ? view.image = item.image : site.image
+
 mixin row(tag = 'div')
 
   #{tag}(class='o-row')&attributes(attributes)
@@ -22,7 +31,7 @@ mixin example-code(lang = 'html')
       code(class=lang)
         block
 
-mixin stringify(item, replacer = '', space = ' ')
+mixin stringify(item, replacer = null, space = ' ')
 
   code
-    pre=JSON.stringify(item, replacerspace = ' ')
+    pre=JSON.stringify(item, replacer, space)

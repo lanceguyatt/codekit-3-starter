@@ -1,0 +1,11 @@
+{
+  "name": "codekit-3-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "n/a",
+  "scripts": {
+    "deploy": "surge -p build -d codekit-3-starter.surge.sh"
+  },
+  "author": "",
+  "license": "ISC"
+}

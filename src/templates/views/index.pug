@@ -2,12 +2,9 @@ extends ../layouts/default
 
 block locals
 
-  - view = views.home
+  +view(views.home)
 
 block view
-
-  script.
-    JSON.stringify(#{locals})
 
   +row()
   
