@@ -9,32 +9,11 @@
 	],
 "creatorBuild": "28905",
 "files": {
-	"/.browserslist": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/build/.browserslist",
-		"oF": 1
-		},
 	"/.editorconfig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "/build/.editorconfig",
-		"oF": 1
-		},
-	"/.eslintignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/build/.eslintignore",
-		"oF": 1
-		},
-	"/.eslintrc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/build/.eslintrc",
 		"oF": 1
 		},
 	"/.gitignore": {
@@ -57,16 +36,6 @@
 		"oA": 1,
 		"oAP": "/build/.prettierrc",
 		"oF": 1
-		},
-	"/.pug-lintrc.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/.pug-lintrc-min.js",
-		"oF": 1,
-		"sC": 1,
-		"tS": 0
 		},
 	"/build": {
 		"ft": 65536,
@@ -118,35 +87,13 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/src/images/image-1.jpg": {
-		"ft": 16384,
-		"iS": 42230,
-		"jF": 0,
-		"oA": 2,
-		"oAP": "/build/images/image-1.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/src/images/image-2.jpg": {
-		"ft": 16384,
-		"iS": 66035,
-		"jF": 0,
-		"oA": 2,
-		"oAP": "/build/images/image-2.jpg",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
 	"/src/scripts/app.coffee": {
 		"ft": 32,
 		"ma": 1,
 		"mi": 0,
 		"oA": 0,
-		"oAP": "/build/scripts/app.js",
-		"oF": 1,
+		"oAP": "/build/assets/scripts/app.js",
+		"oF": 0,
 		"oS": 1,
 		"sC": 1,
 		"tS": 0
@@ -159,7 +106,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "/build/css/app.css",
+		"oAP": "/build/assets/styles/app.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 0
@@ -172,7 +119,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/index.css",
+		"oAP": "/build/assets/styles/index.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -185,7 +132,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/index.css",
+		"oAP": "/build/assets/styles/index.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -198,7 +145,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/index.css",
+		"oAP": "/build/assets/styles/index.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -211,7 +158,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/index.css",
+		"oAP": "/build/assets/styles/index.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -224,7 +171,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/breakpoints.css",
+		"oAP": "/build/assets/styles/breakpoints.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -237,7 +184,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/index.css",
+		"oAP": "/build/assets/styles/index.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -250,7 +197,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/space.css",
+		"oAP": "/build/assets/styles/space.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -263,7 +210,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/typography.css",
+		"oAP": "/build/assets/styles/typography.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -276,7 +223,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/align.css",
+		"oAP": "/build/assets/styles/align.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -289,7 +236,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/background-images.css",
+		"oAP": "/build/assets/styles/background-images.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -302,7 +249,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/border.css",
+		"oAP": "/build/assets/styles/border.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -315,7 +262,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/colors.css",
+		"oAP": "/build/assets/styles/colors.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -328,7 +275,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/flexbox.css",
+		"oAP": "/build/assets/styles/flexbox.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -341,7 +288,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/hide.css",
+		"oAP": "/build/assets/styles/hide.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -354,7 +301,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/index.css",
+		"oAP": "/build/assets/styles/index.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -367,7 +314,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/layout.css",
+		"oAP": "/build/assets/styles/layout.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -380,7 +327,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/margin.css",
+		"oAP": "/build/assets/styles/margin.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -393,7 +340,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/padding.css",
+		"oAP": "/build/assets/styles/padding.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -406,7 +353,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/position.css",
+		"oAP": "/build/assets/styles/position.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -419,7 +366,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/type-scale.css",
+		"oAP": "/build/assets/styles/type-scale.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -432,7 +379,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/build/css/typography.css",
+		"oAP": "/build/assets/styles/typography.css",
 		"oF": 0,
 		"oS": 0,
 		"rrU": 1
@@ -463,115 +410,6 @@
 		"oAP": "/build/index.html",
 		"oF": 2,
 		"oS": 0
-		},
-	"/static/.htaccess": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/build/.htaccess",
-		"oF": 3
-		},
-	"/static/android-chrome-192x192.png": {
-		"ft": 32768,
-		"iS": 3976,
-		"oA": 2,
-		"oAP": "/build/android-chrome-192x192.png",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/static/android-chrome-512x512.png": {
-		"ft": 32768,
-		"iS": 12516,
-		"oA": 2,
-		"oAP": "/build/android-chrome-512x512.png",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/static/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 3730,
-		"oA": 2,
-		"oAP": "/build/apple-touch-icon.png",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/static/browserconfig.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/build/browserconfig.xml",
-		"oF": 3
-		},
-	"/static/favicon-16x16.png": {
-		"ft": 32768,
-		"iS": 428,
-		"oA": 2,
-		"oAP": "/build/favicon-16x16.png",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/static/favicon-32x32.png": {
-		"ft": 32768,
-		"iS": 724,
-		"oA": 2,
-		"oAP": "/build/favicon-32x32.png",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/static/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/build/favicon.ico",
-		"oF": 3
-		},
-	"/static/humans.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/build/humans.txt",
-		"oF": 3
-		},
-	"/static/manifest.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "/build/manifest.json",
-		"oF": 3,
-		"oO": 0,
-		"oS": 1
-		},
-	"/static/mstile-150x150.png": {
-		"ft": 32768,
-		"iS": 3220,
-		"oA": 2,
-		"oAP": "/build/mstile-150x150.png",
-		"oF": 3,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/static/robots.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/build/static/robots.txt",
-		"oF": 0
 		}
 	},
 "hooks": [
@@ -2344,10 +2182,10 @@
 	"languageDefaultsCOFFEE": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
+		"autoOutputPathRelativePath": "assets/scripts",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
@@ -2531,7 +2369,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathRelativePath": "assets/styles",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 1,

@@ -4,6 +4,10 @@ block locals
 
   +view(views.home)
 
+block title
+
+  +title(views.home.name)
+
 block view
 
   +row()
@@ -15,8 +19,13 @@ block view
 
     ul(class='u-list-reset')
       each color in colors
-        li(class=`u-p3 u-mb3 u-bg-${color.name} u-light`)
-          =color.name
+        - const { name } = color
+        li(
+          class=`u-p3 u-mb3 u-bg-${name}`
+          class=name === 'light' ? 'u-border u-dark' : null
+        )
+          span(class=name === 'light' ? 'u-dark' : 'u-light')
+            =name
 
     each m in spaces
       div(class=`u-m${m} u-border`)

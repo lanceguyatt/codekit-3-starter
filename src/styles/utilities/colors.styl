@@ -1,21 +1,14 @@
-color-light = rgb(255, 255, 255)
-color-primary = #BE0177
-color-secondary = #005eb8
+color-light = #fff
+color-primary = red
+color-secondary = green
 color-dark = invert(color-light)
 
-colors = color-light color-primary color-secondary
-
-color(foo, bar)
+mixin-color(foo, bar)
   .u-{foo} { color: bar; }
   .u-bg-{foo} { background-color: bar; }
   .u-border-{foo} { border-color: bar; }
 
-color('primary', color-primary);
-color('secondary', color-secondary);
-color('light', color-light);
-color('dark', color-dark);
-
-// :root
-//   --color-primary color-primary
-//   --color-secondary color-secondary
-//   --color-light color-light
+mixin-color('primary', color-primary);
+mixin-color('secondary', color-secondary);
+mixin-color('light', color-light);
+mixin-color('dark', color-dark);
