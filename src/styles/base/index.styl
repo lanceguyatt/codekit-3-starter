@@ -1,19 +1,60 @@
 *
-  box-sizing: border-box
-  margin 0
-  padding 0
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+
+html
+  font-size calc(1rem + ((100vw - 600px) / 250))
+  font-family var(--font-avenir)
+  text-decoration-skip-ink 'auto'
 
 body
   background-color var(--color-light)
-  font 1rem var(--font-avenir)
-  height 100%
-  line-height 1.5
-  margin 0
-  overflow-x hidden
-  position relative
+  color var(--color-dark)
+  caret-color var(--color-dark)
+  line-height var(--line-height-3)
+  margin calc((100vh / 25) * 1.563) calc((100vw / 25) * 1.563)
+
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--color-dark);
+    color: var(--color-light)
+    color: var(--color-light)
+  }
+}
 
 h1, h2, h3, h4, h5, h6
-  margin-bottom 0.5em
+  background red
+  margin-bottom 1rem
+  font-weight bold
+  line-height var(--line-height-2)
+
+h1
+  font-size var(--scale-up-5)
+
+h2
+  font-size var(--scale-up-4)
+
+h3
+  font-size var(--scale-up-3)
+
+h4
+  font-size var(--scale-up-2)
+
+h5
+  font-size var(--scale-up-1)
+
+h6
+  font-size var(--scale)
 
 p
-  margin-bottom 1.5em
+  background red
+  margin-bottom var(--h4)
+
+p > *:last-child
+  margin-bottom 0

@@ -7,5 +7,8 @@
     "deploy": "surge -p build -d codekit-3-starter.surge.sh"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "animate.css": "^3.7.2"
+  }
 }

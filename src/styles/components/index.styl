@@ -1,0 +1,13 @@
+.c-foo
+  background yellow
+  display grid
+  grid-gap var(--space-3)
+  grid-template-columns 1fr 1fr
+
+  @media (min-width: var(--breakpoint-md)) {
+    grid-template-columns 1fr 1fr 1fr
+  }
+
+  @media (min-width: lg) {
+    grid-template-columns 1fr 1fr 1fr 1fr
+  }

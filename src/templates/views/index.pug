@@ -10,39 +10,63 @@ block title
 
 block view
 
-  +row()
+  //- +stringify(view)
+
+  //- h1=view.name
+  //- p=view.url
+
+  div(class='u-h1') Scale up 5
+  div(class='u-h2') Scale up 4
+  div(class='u-h3') Scale up 3
+  div(class='u-h4') Scale up 2
+  div(class='u-h5') Scale up 1
+  div(class='u-h6') Scale netural
+  div(class='u-h7') Scale down 1
+  div(class='u-h8') Scale down 2
+
+  h1 Heading 1
+  h2 Heading 2
+  h3 Heading 3
+  h4 Heading 4
+  h5 Heading 5
+  h6 Heading 6
+
+  div(class='u-p1 u-mb1 u-border'): pre .u-p1
+  div(class='u-p2 u-mb2 u-border'): pre .u-p2
+  div(class='u-p3 u-mb3 u-border'): pre .u-p3
+  div(class='u-p4 u-mb4 u-border'): pre .u-p4
+
+  div(class='c-foo u-grid')
+    each item, i in [0,1,2,3,4,5,6,7]
+      div(class='u-p3 u-border u-center')
+        =i + 1
+
+  //- ul(class='u-list-reset u-grid')
+  //-   each color in colors
+  //-     - const { name } = color
+  //-     li(
+  //-       class=`u-p3 u-mb3 u-bg-${name}`
+  //-       class=name === 'light' ? 'u-border u-dark' : null
+  //-     )
+  //-       span(class=name === 'light' ? 'u-dark' : 'u-light')
+  //-         =name
+
+  //- each m in spaces
+  //-   div(class=`u-m${m} u-border`)
+  //-     =`.u-m${m}`
   
-    +stringify(view)
-
-    h1=view.name
-    p=view.url
-
-    ul(class='u-list-reset')
-      each color in colors
-        - const { name } = color
-        li(
-          class=`u-p3 u-mb3 u-bg-${name}`
-          class=name === 'light' ? 'u-border u-dark' : null
-        )
-          span(class=name === 'light' ? 'u-dark' : 'u-light')
-            =name
-
-    each m in spaces
-      div(class=`u-m${m} u-border`)
-        =`.u-m${m}`
-    
-    each m in spaces
-      div(class=`u-m${m}-sm u-border`)
-        =`.u-m-${m}-sm`
-    
-    each m in spaces
-      div(class=`u-m${m}-md u-border`)
-        =`.u-m${m}-md`
-
-    each m in spaces
-      div(class=`u-m${m}-lg u-border`)
-        =`.u-m${m}-lg`
+  //- each m in spaces
+  //-   div(class=`u-m${m}-sm u-border`)
+  //-     =`.u-m-${m}-sm`
   
-    each p in spaces
-      div(class=`u-mb3 u-p${p} u-border`)
-        =`.u-p${p}`
+  //- each m in spaces
+  //-   div(class=`u-m${m}-md u-border`)
+  //-     =`.u-m${m}-md`
+
+  //- each m in spaces
+  //-   div(class=`u-m${m}-lg u-border`)
+  //-     =`.u-m${m}-lg`
+
+  //- each p in spaces
+  //-   div(class=`u-mb3 u-p${p} u-border`)
+  //-     =`.u-p${p}`

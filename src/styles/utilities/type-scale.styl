@@ -1,6 +1,41 @@
-.u-h1 { font-size: var(--h1); }
-.u-h2 { font-size: var(--h2); }
-.u-h3 { font-size: var(--h3); }
-.u-h4 { font-size: var(--h4); }
-.u-h5 { font-size: var(--h5); }
-.u-h6 { font-size: var(--h6); }
+// https://type-scale.com/?size=16&scale=1.250&text=A%20Visual%20Type%20Scale&font=Rufina&fontweight=400&bodyfont=Poppins&bodyfontweight=400&lineheight=1.563&backgroundcolor=white&fontcolor=%23333&preview=false
+
+/* Scale major third
+––––––––––––––––––––––––––––––––– */
+
+/*
+3.815rem
+3.052rem
+2.441rem
+1.953rem
+1.563rem
+1.25rem
+1rem
+0.8rem
+0.64rem
+0.512rem
+0.41rem
+0.328rem
+0.262rem
+0.209rem
+*/
+
+.u-h1 { font-size: var(--scale-up-5) }
+.u-h2 { font-size: var(--scale-up-4) }
+.u-h3 { font-size: var(--scale-up-3) }
+.u-h4 { font-size: var(--scale-up-2) }
+.u-h5 { font-size: var(--scale-up-1) }
+.u-h6 { font-size: var(--scale) }
+.u-h7 { font-size: var(--scale-down-1) }
+.u-h8 { font-size: var(--scale-down-2) }
+
+:root
+  --scale-up-6 3.815rem // 61.04px
+  --scale-up-5 3.052rem // 48.83px
+  --scale-up-4 2.411rem // 39.06px
+  --scale-up-3 1.95375rem // 31.25px
+  --scale-up-2 1.563em // 25px
+  --scale-up-1 1.25rem // 20px
+  --scale 1rem // 16px
+  --scale-down-1 0.8rem // 12.80px
+  --scale-down-2 0.64rem // 10.24px
